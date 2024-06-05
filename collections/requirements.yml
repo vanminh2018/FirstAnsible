@@ -1,4 +1,5 @@
 ---
 collections:
-- pureport.fabric
-
+- community.general
+# - kubernetes.core
+# - vmware.vmware_rest

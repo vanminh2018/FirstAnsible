@@ -1,3 +1,2 @@
 [site]
-localhost ansible_connection=local
 192.168.56.10
