@@ -18,4 +18,6 @@
 
 - name: Print final version
   debug:
-    msg: "Version {{ semaphore_vars.task_details.target_version }} was built and ready for deployment."
+    msg:
+    - "Version {{ semaphore_vars.task_details.target_version }} was built and ready for deployment."
+    - "Detail semaphore_vars: {{ semaphore_vars }}"
