@@ -1,6 +1,3 @@
-- hosts: site
+- hosts: "{{ ip_server }}"
   roles:
   - deploy
-
-
-  
