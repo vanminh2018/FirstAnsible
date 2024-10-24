@@ -1,4 +1,4 @@
-- hosts: site
+- hosts: "{{ ip_server }}"
   roles:
   - install_htop
 
