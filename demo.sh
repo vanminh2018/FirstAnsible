@@ -1,5 +1,7 @@
 echo Hello from Bash!
 echo It is demo script.
+echo List IP:
+hostname -I
 echo List of files in current directory:
 ls -lart
 
